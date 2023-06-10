@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body style="background-color: #333;">
+    <nav class="navbar" style="z-index: 9999;"> 
+      <a id="btn-adopted" >Home</a>
+      <a id="peliculasnuevas" >Nuevas</a>
+      <a id="todas-peliculas" >Compradas</a>
+      <a href="./Buscador.html" >Buscar</a>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+          <br/>
+        </div>
+      </div>
+
+      <div id="petsRow" class="row">
+        <!-- PETS LOAD HERE -->
+      </div>
+    </div>
+
+    <div id="petTemplate" style="display: none;">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="panel panel-default panel-pet">
+          <div class="panel-heading">
+            <h3 class="panel-title">Scrappy</h3>
+          </div>
+          <div class="panel-body">
+            <img alt="140x140" data-src="holder.js/140x140" class="img-rounded img-center" style="width: 100%;max-height: 230px;" src="https://animalso.com/wp-content/uploads/2017/01/Golden-Retriever_6.jpg" data-holder-rendered="true">
+            <br/><br/>
+            <strong>Director</strong>: <span class="pet-breed">Golden Retriever</span><br/>
+            <strong>Stars</strong>: <span class="pet-age">3</span><br/>
+            <strong>Genero</strong>: <span class="pet-location">Warren, MI</span><br/><br/>
+            <button class="btn btn-default btn-adopt" type="button" data-id="0">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
+
+
+
+<style>
+  
+  /* Estilos para el navbar */
+  .navbar {
+      background-color: #680d12;
+      padding: 10px;
+      color: #fff;
+      position: sticky;
+      top: 0;
+  }
+
+  .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 10px;
+  }
+
+  .panel-pet {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .panel-heading {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .panel-title {
+    margin: 0;
+  }
+
+  .panel-body {
+    text-align: center;
+  }
+
+  .img-rounded {
+    border-radius: 10%;
+  }
+
+  .btn-adopt {
+    background-color: #af4c4f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .btn-adopt:hover {
+    background-color: #45a049;
+  }
+</style>
+
+
+
+
+
+
+

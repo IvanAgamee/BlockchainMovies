@@ -1,0 +1,130 @@
+[
+  {
+    "id": 0,
+    "name": "Star Wars",
+    "picture": "images/starwars.jpg",
+    "age": 5,
+    "breed": "George Lucas",
+    "location": "Ciencia Ficción"
+  },
+  {
+    "id": 1,
+    "name": "Avengers",
+    "picture": "images/avengers.jpg",
+    "age": 5,
+    "breed": "Kevin Feige",
+    "location": "Accion"
+  },
+  {
+    "id": 2,
+    "name": "Harry Potter",
+    "picture": "images/harrypotter.jpg",
+    "age": 5,
+    "breed": "David Heyman",
+    "location": "Fantasia"
+  },
+  {
+    "id": 3,
+    "name": "Indiana Jones",
+    "picture": "images/indianajones.jpg",
+    "age": 4,
+    "breed": "George Lucas",
+    "location": "Ciencia Ficción"
+  },
+  {
+    "id": 4,
+    "name": "Spiderman",
+    "picture": "images/spiderman.jpg",
+    "age": 3,
+    "breed": "Sam Raimi",
+    "location": "Ciencia Ficción"
+  },
+  {
+    "id": 5,
+    "name": "Iron Man",
+    "picture": "images/ironman.jpg",
+    "age": 3,
+    "breed": "Jon Favreau",
+    "location": "Ciencia Ficción"
+  },
+  {
+    "id": 6,
+    "name": "Batman",
+    "picture": "images/batman.jpg",
+    "age": 5,
+    "breed": "Matt Reeves",
+    "location": "Crimen"
+  },
+  {
+    "id": 7,
+    "name": "Superman",
+    "picture": "images/superman.jpg",
+    "age": 3,
+    "breed": "Richard Donner",
+    "location": "Accion"
+  },
+  {
+    "id": 8,
+    "name": "Rapidos y Furiosos",
+    "picture": "images/rapidosyfuriosos.jpg",
+    "age": 2,
+    "breed": "Michael Fottrell",
+    "location": "Crimen"
+  },
+  {
+    "id": 9,
+    "name": "Avatar",
+    "picture": "images/avatar.jpg",
+    "age": 3,
+    "breed": "James Cameron",
+    "location": "Aventura"
+  },
+  {
+    "id": 10,
+    "name": "Creed",
+    "picture": "images/creed.jpg",
+    "age": 2,
+    "breed": "Ryan Coogler",
+    "location": "Hard rock"
+  },
+  {
+    "id": 11,
+    "name": "Volver al Futro",
+    "picture": "images/volveralfuturo.jpg",
+    "age": 3,
+    "breed": "Michael J. Fox",
+    "location": "Ciencia ficción"
+  },
+  {
+    "id": 12,
+    "name": "La la land",
+    "picture": "images/laland.jpg",
+    "age": 3,
+    "breed": "Damien Chazelle",
+    "location": "Romance"
+  },
+  {
+    "id": 13,
+    "name": "Rey Leon",
+    "picture": "images/reyleon.jpg",
+    "age": 4,
+    "breed": "Don Hahn",
+    "location": "Fantasia"
+  },
+  {
+    "id": 14,
+    "name": "Sonic",
+    "picture": "images/sonic.jpg",
+    "age": 2,
+    "breed": "Jeff Fowler",
+    "location": "Accion"
+  },
+  {
+    "id": 15,
+    "name": "Transformers",
+    "picture": "images/transformers.jpg",
+    "age": 2,
+    "breed": "Travis Knight",
+    "location": "Accion"
+  }
+]
